@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: #F2F2F2;
+    width: 100%;
+}
+
+article {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    justify-items: center;
+    width: 40%;
+    padding-top: 1em;
+}
+
+section {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    border: none;
+    font-size: 17px;
+    text-align: center;
+    padding: 4px 4px;
+    margin-left: 1em;
+    margin-bottom: 0.8em;
+    background-color: #CCCCCC;
+    color: #131313;
+    margin-top: 1em;
+    width: 10em;
+}
+
+button:hover {
+    background-color: #7F7F7F;
+    color: seashell;
+}
+
+input {
+    display: flex;
+    width: 12em;
+    margin-top: 0.3em;
+    margin-bottom: 0.4em;
+}
+
+h1 {
+    display: flex;
+    font-size: 22px;
+    width: 7em;
+    background-color: #ececec;
+    justify-content: center;
+    margin-top: 1em;
+    padding-top: 0.2em;
+    border-radius: 0.3em 0.3em 0em 0em;
+}
+
+article>div{
+    width: 14em;
+    margin-top: 1em;
+    height: 4em;
+}
+
+article>div>h1{
+    display: flex;
+    font-size: 22px;
+    width: 7em;
+    justify-content: center;
+}
+
+article>div>h2{
+    display: flex;
+    font-size: 17px;
+    justify-content: center;
+    border-radius: 0em 0.3em 0em 0em;
+    background-color: #ececec;
+}
+
+
+p {
+    display: flex;
+    width: 15em;
+    text-align: end;
+    justify-content: flex-end;
+    padding-right: 0.5em;
+}
+
+section:nth-child(even) {
+    border-radius: 0em 0.3em 0.3em 0.3em;
+    background-color: #ececec;
+}
+
+#ejercitio_4 {
+    display: flex;
+    width: 14em;
+    flex-flow: column;
+    justify-content: center;
+    justify-items: center;
+    background-color: #ececec;
+}
+
+#ejercitio_4 input{
+    display: flex;
+    margin-left: 1em;
+}
+
+#ejercitio_4 button{
+    margin-left: 1.5em;
+}
